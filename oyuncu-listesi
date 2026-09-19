@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
-<title>Metin2 - Türkiye'nin en iyi pvp serveri</title>
+<title>Oyuncu Listesi - Metin2 - Türkiye'nin en iyi pvp serveri</title>
 <meta content="Metin2, Metin2 Server, Kayıt Ol, Pvp, Editsiz, Hilesiz, Bugsuz" name="keywords"/>
 <meta content="Metin2 MMORPG oyunu'nun  private sunucusudur." name="description"/>
 <!-- CSS -->
@@ -191,37 +191,83 @@ document.oncontextmenu=new Function("return false");
 <div id="main_content_item">
 <div id="main_content_item_title">
 <div id="main_content_item_title_text">
-							ZEHİRMT2 PVP - Hoşgeldiniz.						</div>
+							Oyuncu Listesi						</div>
 </div>
 <div id="main_content_item_content">
-<div align="center">
-<h2>Anket Oylaması</h2>
 <br/>
-<div class="notification fail canhide" style=" margin-top:3px; margin-bottom:3px;"><span>Lütfen ilk önce giriş yapınız.</span></div><br/>
-<div class="anket_div">
-<p class="anket_soru">
-SiberDizayndan memnun musunuz ?</p>
-<div class="inout">
-<span class="in"><a href="/index.html"><img height="50" src="/global/in.png" width="52"/></a>6425</span>
-<span class="out"><a href="/index.html"><img height="50" src="/global/out.png" width="52"/></a>4</span>
+<div class="oara_list">
+<label> <select onchange="location = this.options[this.selectedIndex].value;">
+<option selected="" value="oyuncu-listesi">Oyuncu Listesi</option>
+<option value="lonca-listesi">Lonca Listesi</option>
+<option value="gm-listesi">GM Listesi</option>
+<option value="ban-sorgulama">Ban Sorgulama</option>
+</select> </label>
+<div class="clear"></div>
+<br/>
+<label> <select onchange="location = this.options[this.selectedIndex].value;">
+<option value="oyuncu-listesi?isim=&amp;sinif=&amp;git=">[Tüm Sınıflar]</option>
+<option value="oyuncu-listesi?isim=&amp;sinif=savasci&amp;git=">Savaşçı</option>
+<option value="oyuncu-listesi?isim=&amp;sinif=sura&amp;git=">Sura</option>
+<option value="oyuncu-listesi?isim=&amp;sinif=shaman&amp;git=">Şhaman</option>
+<option value="oyuncu-listesi?isim=&amp;sinif=ninja&amp;git=">Ninja</option>
+</select> </label>
+<label><input id="query" name="isim" placeholder="Oyuncu Adı..." type="text" value=""/> </label>
+<input onclick="karakter_ara();" type="submit" value="Bul!"/>
+<br/>
 </div>
-<br/>
-</div>
-<br/>
-<h2>Tanıtım Videosu</h2>
-<br/>
-<div class="tanvideo">
-<iframe allowfullscreen="" frameborder="0" height="250" src="//www.youtube.com/embed//l8ZRyvjEI1w?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=false" width="430"></iframe>
-</div>
-<br/>
-<div style="clear:both"></div>
-<br/>
-<h2>Haber ve Duyurular</h2>
-<div class="haberler">
-<h5><a href="/sizde-boyle-bir-oyuna-sahip-olmak-ister-misiniz-.html">» Sizde böyle bir oyuna sahip olmak ister misiniz ?</a><span> - 31.10.2018 </span></h5>
-<br/>
-<a class="tumhaber" href="/haberler">» Tüm Haberler</a>
-<br/>
+<div class="oyunculiste oyloncalist">
+<table align="center" border="0" cellpadding="2" style="margin-top:25px;" width="100%">
+<tr>
+<td align="center" class="siralama_th_bg" width="10%"><h5>#</h5></td>
+<td align="center" class="siralama_th_bg" width="30%"><h5>İsim</h5></td>
+<td align="center" class="siralama_th_bg" width="10%"><h5>Level</h5></td>
+<td align="center" class="siralama_th_bg" width="15%"><h5>Sınıf</h5></td>
+<td align="center" class="siralama_th_bg" width="20%"><h5>Bayrak</h5></td>
+<td align="center" class="siralama_th_bg" width="30%"><h5>Lonca</h5></td>
+<td align="center" class="siralama_th_bg" width="10%"><h5>Durum</h5></td>
+</tr>
+<tr>
+<td align="center" width="5%">1</td>
+<td width="30%"><a href="/oyuncu/Qukki">Qukki</a></td>
+<td align="center" width="10%">70</td>
+<td align="center" width="10%"><img border="0" height="25" src="/global/karekterler/0.jpg" width="25"/></td>
+<td align="center" width="10%"><img src="/global/bayrak/3.jpg"/></td>
+<td align="center" width="30%"><span style="color:red">Yok<span></span></span></td>
+<td align="center" width="10%"><img src="/global/off.png"/></td>
+</tr>
+<tr>
+<td align="center" width="5%">2</td>
+<td width="30%"><a href="/oyuncu/QvoR">QvoR</a></td>
+<td align="center" width="10%">68</td>
+<td align="center" width="10%"><img border="0" height="25" src="/global/karekterler/3.jpg" width="25"/></td>
+<td align="center" width="10%"><img src="/global/bayrak/3.jpg"/></td>
+<td align="center" width="30%"><span style="color:red">Yok<span></span></span></td>
+<td align="center" width="10%"><img src="/global/off.png"/></td>
+</tr>
+<tr>
+<td align="center" width="5%">3</td>
+<td width="30%"><a href="/oyuncu/EFSANEVIISO">EFSANEVIISO</a></td>
+<td align="center" width="10%">32</td>
+<td align="center" width="10%"><img border="0" height="25" src="/global/karekterler/0.jpg" width="25"/></td>
+<td align="center" width="10%"><img src="/global/bayrak/1.jpg"/></td>
+<td align="center" width="30%"><span style="color:red">Yok<span></span></span></td>
+<td align="center" width="10%"><img src="/global/off.png"/></td>
+</tr>
+<tr>
+<td align="center" width="5%">4</td>
+<td width="30%"><a href="/oyuncu/IIKRALII">IIKRALII</a></td>
+<td align="center" width="10%">1</td>
+<td align="center" width="10%"><img border="0" height="25" src="/global/karekterler/5.jpg" width="25"/></td>
+<td align="center" width="10%"><img src="/global/bayrak/1.jpg"/></td>
+<td align="center" width="30%"><span style="color:red">Yok<span></span></span></td>
+<td align="center" width="10%"><img src="/global/off.png"/></td>
+</tr>
+</table>
+<div class="clear"></div>
+<div class="sayfalama">
+<span><a href="/oyuncu-listesi">Önceki</a></span>
+<span class="sayfalama-active"><a href="/oyuncu-listesi">1</a></span>
+<span><a href="/oyuncu-listesi">Sonraki</a></span>
 </div>
 </div>
 </div>

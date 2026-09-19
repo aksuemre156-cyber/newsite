@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
-<title>Metin2 - Türkiye'nin en iyi pvp serveri</title>
+<title>Haberler &amp; Gelişmeler - Metin2 - Türkiye'nin en iyi pvp serveri</title>
 <meta content="Metin2, Metin2 Server, Kayıt Ol, Pvp, Editsiz, Hilesiz, Bugsuz" name="keywords"/>
 <meta content="Metin2 MMORPG oyunu'nun  private sunucusudur." name="description"/>
 <!-- CSS -->
@@ -191,38 +191,18 @@ document.oncontextmenu=new Function("return false");
 <div id="main_content_item">
 <div id="main_content_item_title">
 <div id="main_content_item_title_text">
-							ZEHİRMT2 PVP - Hoşgeldiniz.						</div>
+							Duyuru ve Haberler						</div>
 </div>
 <div id="main_content_item_content">
-<div align="center">
-<h2>Anket Oylaması</h2>
-<br/>
-<div class="notification fail canhide" style=" margin-top:3px; margin-bottom:3px;"><span>Lütfen ilk önce giriş yapınız.</span></div><br/>
-<div class="anket_div">
-<p class="anket_soru">
-SiberDizayndan memnun musunuz ?</p>
-<div class="inout">
-<span class="in"><a href="/index.html"><img height="50" src="/global/in.png" width="52"/></a>6425</span>
-<span class="out"><a href="/index.html"><img height="50" src="/global/out.png" width="52"/></a>4</span>
-</div>
-<br/>
-</div>
-<br/>
-<h2>Tanıtım Videosu</h2>
-<br/>
-<div class="tanvideo">
-<iframe allowfullscreen="" frameborder="0" height="250" src="//www.youtube.com/embed//l8ZRyvjEI1w?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=false" width="430"></iframe>
-</div>
-<br/>
-<div style="clear:both"></div>
-<br/>
-<h2>Haber ve Duyurular</h2>
 <div class="haberler">
 <h5><a href="/sizde-boyle-bir-oyuna-sahip-olmak-ister-misiniz-.html">» Sizde böyle bir oyuna sahip olmak ister misiniz ?</a><span> - 31.10.2018 </span></h5>
-<br/>
-<a class="tumhaber" href="/haberler">» Tüm Haberler</a>
-<br/>
+<div class="clear"></div>
 </div>
+<div class="clear"></div>
+<div class="sayfalama">
+<span><a href="/haberler">Önceki</a></span>
+<span class="sayfalama-active"><a href="/haberler">1</a></span>
+<span><a href="/haberler">Sonraki</a></span>
 </div>
 </div>
 </div>
